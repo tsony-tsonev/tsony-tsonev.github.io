@@ -27,10 +27,12 @@ h6 {
 }
 a {
   color: #2d7788;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+
+
 }
 a:hover {
   font-size: 16px;
@@ -59,7 +61,6 @@ p {
   left: 0;
   width: 240px;*/
   height: 100%;
-  min-height: 1385px;
   color: #fff;
 }
 
@@ -278,7 +279,6 @@ p {
   background: -moz-linear-gradient(bottom,rgba(123, 194, 211, 1), rgba(20, 60, 60, 1)); /*Fx 3.6-15*/
   background: linear-gradient(to bottom, rgba(123, 194, 211, 1), rgba(20, 60, 60, 1)); /*Standard*/
 }
-}
 .footer {
   padding: 30px;
   padding-top: 60px;
@@ -326,3 +326,5 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
+
+h4,
