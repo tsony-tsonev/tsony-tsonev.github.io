@@ -56,7 +56,6 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
 @media (min-width: 786px) {
   .sidebar-wrapper {
     background: #2d7788;
@@ -65,7 +64,7 @@ p {
     width: 240px;*/
     height: 100%;
     color: #fff;
-    min-height: 1300px;
+    min-height: 1380px;
   }
 }
 
